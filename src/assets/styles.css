@@ -1,0 +1,87 @@
+/* Global Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #333;
+  }
+  
+  .home-container {
+    text-align: center;
+  }
+  
+  /* Navbar */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #ddd;
+  }
+  .logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+  }
+  .nav-links li {
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-weight: 500;
+  }
+  .nav-icons {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+  .search-bar {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    padding: 8px;
+    border-radius: 0;
+    font-size: 1rem;
+  }
+  .icon {
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background: url('https://via.placeholder.com/1400x700') center/cover no-repeat;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 80px;
+    color: black;
+  }
+  .hero-content {
+    text-align: left;
+    max-width: 500px;
+  }
+  .hero h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  .shop-now {
+    background-color: black;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+  }
+  .shop-now:hover {
+    background-color: #444;
+  }
+  
