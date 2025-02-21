@@ -10,6 +10,8 @@ import saleBanner from "../assets/img/hero1.jpg";
 import relaxed from "../assets/img/hero1.jpg";
 import casual from "../assets/img/hero1.jpg";
 import nightOut from "../assets/img/hero1.jpg";
+import newsletterBg from "../assets/img/newsletter.jpg";
+
 
 const Home = () => {
   return (
@@ -103,6 +105,23 @@ const Home = () => {
           </Carousel.Item>
         </Carousel>
       </div>
+
+
+
+      {/* Newsletter Signup */}
+      <div className="container my-5">
+        <div className="card border-0 shadow-lg text-center" style={{ background: `url(${newsletterBg}) center/cover no-repeat` }}>
+          <div className="card-body py-5">
+            <h2 className="fw-bold">Sign up for our newsletter for exclusive offers</h2>
+            <div className="input-group mt-4 w-50 mx-auto">
+              <input type="email" className="form-control" placeholder="Email Address" />
+              <button className="btn btn-dark">SIGN UP</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+
 
       <Footer />
     </>
