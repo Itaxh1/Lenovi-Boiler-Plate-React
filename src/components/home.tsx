@@ -6,10 +6,10 @@ import Carousel from "react-bootstrap/Carousel";
 import heroImage from "../assets/img/hero1.jpg";
 import newArrivals from "../assets/img/option1.jpg";
 import ourFavorites from "../assets/img/option2.jpg";
-import saleBanner from "../assets/img/hero1.jpg";
-import relaxed from "../assets/img/hero1.jpg";
-import casual from "../assets/img/hero1.jpg";
-import nightOut from "../assets/img/hero1.jpg";
+import saleBanner from "../assets/img/sale.jpg";
+import relaxed from "../assets/img/relaxed.jpg";
+import casual from "../assets/img/casual.jpg";
+import nightOut from "../assets/img/nightout.jpg";
 import newsletterBg from "../assets/img/newsletter.jpg";
 
 
@@ -41,7 +41,7 @@ const Home = () => {
             <div className="card border-0 shadow-lg">
               <img src={newArrivals} className="card-img" alt="New Arrivals" />
               <div className="card-img-overlay d-flex align-items-center justify-content-center">
-                <h2 className="text-white fw-bold">NEW ARRIVALS</h2>
+                <h2 className="text fw-bold">NEW ARRIVALS</h2>
               </div>
             </div>
           </div>
@@ -49,7 +49,7 @@ const Home = () => {
             <div className="card border-0 shadow-lg">
               <img src={ourFavorites} className="card-img" alt="Our Favorites" />
               <div className="card-img-overlay d-flex align-items-center justify-content-center">
-                <h2 className="text-white fw-bold">OUR FAVORITES</h2>
+                <h2 className="text fw-bold">OUR FAVORITES</h2>
               </div>
             </div>
           </div>
@@ -60,7 +60,7 @@ const Home = () => {
       <div className="container my-5">
         <div className="card border-0 shadow-lg">
           <img src={saleBanner} className="card-img" alt="Sale" />
-          <div className="card-img-overlay text-end d-flex flex-column justify-content-center pe-5">
+          <div className="card-img-overlay text-end d-flex flex-column justify-content-center pe-5 text">
             <h5>ONLINE ONLY</h5>
             <h1 className="fw-bold">SALE</h1>
             <h3>UP TO 20% OFF</h3>
@@ -78,7 +78,7 @@ const Home = () => {
                 <div className="card border-0 shadow-lg text-center">
                   <img src={relaxed} className="card-img" alt="Relaxed" />
                   <div className="card-img-overlay d-flex flex-column align-items-center justify-content-end">
-                    <h4 className="fw-bold">RELAXED</h4>
+                    <h4 className="fw-bold text">RELAXED</h4>
                     <button className="btn btn-dark mt-2">SHOP NOW</button>
                   </div>
                 </div>
@@ -87,7 +87,7 @@ const Home = () => {
                 <div className="card border-0 shadow-lg text-center">
                   <img src={casual} className="card-img" alt="Casual" />
                   <div className="card-img-overlay d-flex flex-column align-items-center justify-content-end">
-                    <h4 className="fw-bold">CASUAL</h4>
+                    <h4 className="fw-bold text">CASUAL</h4>
                     <button className="btn btn-dark mt-2">SHOP NOW</button>
                   </div>
                 </div>
@@ -96,7 +96,7 @@ const Home = () => {
                 <div className="card border-0 shadow-lg text-center">
                   <img src={nightOut} className="card-img" alt="Night Out" />
                   <div className="card-img-overlay d-flex flex-column align-items-center justify-content-end">
-                    <h4 className="fw-bold">NIGHT OUT</h4>
+                    <h4 className="fw-bold text">NIGHT OUT</h4>
                     <button className="btn btn-dark mt-2">SHOP NOW</button>
                   </div>
                 </div>

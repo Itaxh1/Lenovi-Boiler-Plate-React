@@ -1,6 +1,7 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import { useState } from "react";
 import { FaSearch, FaUser, FaHeart, FaShoppingBag } from "react-icons/fa";
+import logo from "../assets/img/lino-1.png";
 
 export default function Navbar() {
   const [dropdown, setDropdown] = useState<string | null>(null);
@@ -17,10 +18,9 @@ export default function Navbar() {
     <>
       <nav className="navbar navbar-expand-lg navbar-light bg-white shadow-sm px-4 w-100 d-flex align-items-center border-0">
         {/* Logo */}
-        <a className="navbar-brand fw-bold me-4" href="#">
-          <span className="fw-semibold">LINOVII</span>
+        <a href="#">
+          <img src={logo} className="logo" alt="Logo"/>
         </a>
-
         {/* Right Icons */}
         <div className="d-flex align-items-center ms-auto">
           <div className="input-group border-bottom border-secondary me-3 border-0">
@@ -56,7 +56,7 @@ export default function Navbar() {
                     top: "100%",
                     left: "50%",
                     transform: "translateX(-50%)",
-                    minWidth: "600px",
+                    minWidth: "550px",
                     zIndex: 1000,
                   }}
                   onMouseEnter={() => setDropdown(menu)}
